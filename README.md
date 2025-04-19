@@ -7,7 +7,11 @@ https://www.npmjs.com/package/@mpalola/apex-sankey-react
 ## Installation
 
 ```bash
+
+npm install react
+npm install apexsankey@1.1.2
 npm install @mpalola/apex-sankey-react
+
 ```
 
 ## Development environment installation

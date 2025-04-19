@@ -9,7 +9,10 @@
   "license": "MIT",
   "files": [
     "dist",
-    "README.md"
+    "README.md",
+    "demo/index.html",
+    "demo/SankeyDemo.js",
+    "demo/package.json"
   ],
   "scripts": {
     "build": "tsc && vite build",
