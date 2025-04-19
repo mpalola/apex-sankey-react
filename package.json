@@ -1,0 +1,51 @@
+{
+  "name": "mpalola/apex-sankey-react",
+  "main": "dist/index.es.js",
+  "umd:main": "dist/index.umd.js",
+  "types": "dist/index.d.ts",
+  "author", "Marko Palola",
+  "description": "SankeyChart react component for rendering ApexSankey JS chart",
+  "version": "1.0.0",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc && vite build",
+    "prepare": "npm run build",
+    "test": "jest",
+    "start": "vite",
+    "dev": "vite",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "react",
+    "sankey",
+    "chart",
+    "diagram",
+    "visualization",
+    "apexcharts"
+  ],
+  "author": "Marko Palola",
+  "license": "MIT",
+  "repository": {
+	"type": "git",
+	"url": "'https://github.com/mpalola/apex-sankey-react.git"
+  }
+  "peerDependencies": {
+    "react": ">=19.0.0",
+    "react-dom": ">=19.0.0"
+  },
+  "devDependencies": {
+    "@testing-library/react": ">=13.0.0",
+    "@types/react": "^18.3.20",
+    "@types/react-dom": "^18.3.6",
+    "@vitejs/plugin-react": "^4.4.0",
+    "jest": "^27.0.0",
+    "typescript": "^4.5.0",
+    "vite": "^6.3.1"
+  },
+  "dependencies": {
+    "apexsankey": "^1.1.2"
+  }
+}
