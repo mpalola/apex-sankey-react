@@ -5,7 +5,7 @@ React component for displaying ApexSankey charts.
 ## Installation
 
 ```bash
-npm install apex-sankey-react
+npm install @mpalola/apex-sankey-react
 ```
 
 ## Development environment installation
@@ -41,7 +41,7 @@ This creates `dist` directory:
 - `index.es.js`: ES-module (modern browsers)
 - `index.d.ts`: TypeScript type definitions
 
-## Usage
+## Example 
 
 ```jsx
 import { SankeyChart } from 'apex-sankey-react';
