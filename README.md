@@ -2,6 +2,8 @@
 
 React component for displaying ApexSankey charts.
 
+https://www.npmjs.com/package/@mpalola/apex-sankey-react
+
 ## Installation
 
 ```bash
